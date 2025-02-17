@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9487FD652D63B0F400180E93 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 9487FD642D63B0F400180E93 /* SamplePackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		94CF90BF2D5E44C5001D000E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9487FD652D63B0F400180E93 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9487FD632D63B0F400180E93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94CF90A52D5E44C4001D000E = {
 			isa = PBXGroup;
 			children = (
 				94CF90B02D5E44C4001D000E /* HotProspects */,
 				94CF90C12D5E44C5001D000E /* HotProspectsTests */,
 				94CF90CB2D5E44C5001D000E /* HotProspectsUITests */,
+				9487FD632D63B0F400180E93 /* Frameworks */,
 				94CF90AF2D5E44C4001D000E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +125,7 @@
 			);
 			name = HotProspects;
 			packageProductDependencies = (
+				9487FD642D63B0F400180E93 /* SamplePackage */,
 			);
 			productName = HotProspects;
 			productReference = 94CF90AE2D5E44C4001D000E /* HotProspects.app */;
@@ -566,6 +580,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9487FD642D63B0F400180E93 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9487FD622D63A7D500180E93 /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94CF90A62D5E44C4001D000E /* Project object */;
 }
