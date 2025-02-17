@@ -195,6 +195,9 @@
 			);
 			mainGroup = 94CF90A52D5E44C4001D000E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9487FD622D63A7D500180E93 /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 94CF90AF2D5E44C4001D000E /* Products */;
 			projectDirPath = "";
@@ -552,6 +555,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9487FD622D63A7D500180E93 /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 94CF90A62D5E44C4001D000E /* Project object */;
 }
