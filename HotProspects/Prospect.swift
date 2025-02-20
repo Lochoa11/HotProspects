@@ -12,7 +12,7 @@ class Prospect {
     var name: String
     var emailAddress: String
     var isContacted: Bool
-    var meetingDate: Date
+    var meetingDate = Date.now
     
     init(name: String, emailAddress: String, isContacted: Bool) {
         self.name = name
